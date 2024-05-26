@@ -7,7 +7,6 @@
 <body>
     <h1>File Manipulator Script</h1>
     <p>This Python script performs various text file manipulation tasks based on command line arguments. It offers functionalities such as reversing content, copying content, duplicating content, and replacing specific characters within a text file.</p>
-
     <h2>Usage</h2>
     <p>To use the script, execute it from the command line with the following syntax:</p>
     <pre><code>python script.py [operation] [arguments]</code></pre>
