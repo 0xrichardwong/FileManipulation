@@ -15,7 +15,6 @@
         <li><code>[operation]</code> specifies the manipulation operation to perform.</li>
         <li><code>[arguments]</code> are optional and depend on the operation being executed.</li>
     </ul>
-
     <h2>Operations</h2>
     <ol>
         <li><strong>Reverse:</strong> Reverses the content of the input file and writes the reversed content to the output file.</li>
@@ -23,17 +22,13 @@
         <li><strong>Duplicate:</strong> Duplicates the content of the input file a specified number of times and writes the duplicated content to the output file. The number of duplications is provided as an argument.</li>
         <li><strong>Replace:</strong> Replaces occurrences of a specified character or substring in the input file with another character or substring. The characters to replace and their replacements are provided as arguments.</li>
     </ol>
-
     <h2>Example</h2>
     <p>For example, to reverse the content of a file named <code>Input.txt</code> and save the result to <code>Output.txt</code>, execute:</p>
     <pre><code>python script.py reverse</code></pre>
-
     <p>To duplicate the content of <code>Input.txt</code> three times and save it to <code>Output.txt</code>, execute:</p>
     <pre><code>python script.py duplicate 3</code></pre>
-
     <p>To replace all occurrences of the character 'a' with 'b' in <code>Input.txt</code> and save the modified content to <code>Output.txt</code>, execute:</p>
     <pre><code>python script.py replace a b</code></pre>
-
     <h2>Notes</h2>
     <ul>
         <li>Ensure that the input file path is correctly set in the script (<code>inputPath</code> variable).</li>
